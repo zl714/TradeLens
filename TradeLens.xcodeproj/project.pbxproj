@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A9C5FAF02EDFCFB900AD99EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C5FAD82EDFCFB700AD99EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9C5FADF2EDFCFB700AD99EC;
+			remoteInfo = TradeLens;
+		};
+		A9C5FAFA2EDFCFB900AD99EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C5FAD82EDFCFB700AD99EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9C5FADF2EDFCFB700AD99EC;
+			remoteInfo = TradeLens;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9C5FAE02EDFCFB700AD99EC /* TradeLens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradeLens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C5FAEF2EDFCFB900AD99EC /* TradeLensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradeLensTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C5FAF92EDFCFB900AD99EC /* TradeLensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradeLensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A9C5FAE22EDFCFB700AD99EC /* TradeLens */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TradeLens;
+			sourceTree = "<group>";
+		};
+		A9C5FAF22EDFCFB900AD99EC /* TradeLensTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TradeLensTests;
+			sourceTree = "<group>";
+		};
+		A9C5FAFC2EDFCFB900AD99EC /* TradeLensUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TradeLensUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9C5FADD2EDFCFB700AD99EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C5FAEC2EDFCFB900AD99EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C5FAF62EDFCFB900AD99EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9C5FAD72EDFCFB700AD99EC = {
+			isa = PBXGroup;
+			children = (
+				A9C5FAE22EDFCFB700AD99EC /* TradeLens */,
+				A9C5FAF22EDFCFB900AD99EC /* TradeLensTests */,
+				A9C5FAFC2EDFCFB900AD99EC /* TradeLensUITests */,
+				A9C5FAE12EDFCFB700AD99EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9C5FAE12EDFCFB700AD99EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9C5FAE02EDFCFB700AD99EC /* TradeLens.app */,
+				A9C5FAEF2EDFCFB900AD99EC /* TradeLensTests.xctest */,
+				A9C5FAF92EDFCFB900AD99EC /* TradeLensUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9C5FADF2EDFCFB700AD99EC /* TradeLens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9C5FB032EDFCFB900AD99EC /* Build configuration list for PBXNativeTarget "TradeLens" */;
+			buildPhases = (
+				A9C5FADC2EDFCFB700AD99EC /* Sources */,
+				A9C5FADD2EDFCFB700AD99EC /* Frameworks */,
+				A9C5FADE2EDFCFB700AD99EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A9C5FAE22EDFCFB700AD99EC /* TradeLens */,
+			);
+			name = TradeLens;
+			packageProductDependencies = (
+			);
+			productName = TradeLens;
+			productReference = A9C5FAE02EDFCFB700AD99EC /* TradeLens.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9C5FAEE2EDFCFB900AD99EC /* TradeLensTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9C5FB062EDFCFB900AD99EC /* Build configuration list for PBXNativeTarget "TradeLensTests" */;
+			buildPhases = (
+				A9C5FAEB2EDFCFB900AD99EC /* Sources */,
+				A9C5FAEC2EDFCFB900AD99EC /* Frameworks */,
+				A9C5FAED2EDFCFB900AD99EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9C5FAF12EDFCFB900AD99EC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A9C5FAF22EDFCFB900AD99EC /* TradeLensTests */,
+			);
+			name = TradeLensTests;
+			packageProductDependencies = (
+			);
+			productName = TradeLensTests;
+			productReference = A9C5FAEF2EDFCFB900AD99EC /* TradeLensTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9C5FAF82EDFCFB900AD99EC /* TradeLensUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9C5FB092EDFCFB900AD99EC /* Build configuration list for PBXNativeTarget "TradeLensUITests" */;
+			buildPhases = (
+				A9C5FAF52EDFCFB900AD99EC /* Sources */,
+				A9C5FAF62EDFCFB900AD99EC /* Frameworks */,
+				A9C5FAF72EDFCFB900AD99EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9C5FAFB2EDFCFB900AD99EC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A9C5FAFC2EDFCFB900AD99EC /* TradeLensUITests */,
+			);
+			name = TradeLensUITests;
+			packageProductDependencies = (
+			);
+			productName = TradeLensUITests;
+			productReference = A9C5FAF92EDFCFB900AD99EC /* TradeLensUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9C5FAD82EDFCFB700AD99EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					A9C5FADF2EDFCFB700AD99EC = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					A9C5FAEE2EDFCFB900AD99EC = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A9C5FADF2EDFCFB700AD99EC;
+					};
+					A9C5FAF82EDFCFB900AD99EC = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A9C5FADF2EDFCFB700AD99EC;
+					};
+				};
+			};
+			buildConfigurationList = A9C5FADB2EDFCFB700AD99EC /* Build configuration list for PBXProject "TradeLens" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9C5FAD72EDFCFB700AD99EC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A9C5FAE12EDFCFB700AD99EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9C5FADF2EDFCFB700AD99EC /* TradeLens */,
+				A9C5FAEE2EDFCFB900AD99EC /* TradeLensTests */,
+				A9C5FAF82EDFCFB900AD99EC /* TradeLensUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9C5FADE2EDFCFB700AD99EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C5FAED2EDFCFB900AD99EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C5FAF72EDFCFB900AD99EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9C5FADC2EDFCFB700AD99EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C5FAEB2EDFCFB900AD99EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C5FAF52EDFCFB900AD99EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9C5FAF12EDFCFB900AD99EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9C5FADF2EDFCFB700AD99EC /* TradeLens */;
+			targetProxy = A9C5FAF02EDFCFB900AD99EC /* PBXContainerItemProxy */;
+		};
+		A9C5FAFB2EDFCFB900AD99EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9C5FADF2EDFCFB700AD99EC /* TradeLens */;
+			targetProxy = A9C5FAFA2EDFCFB900AD99EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A9C5FB012EDFCFB900AD99EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9C5FB022EDFCFB900AD99EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9C5FB042EDFCFB900AD99EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TradeLens.TradeLens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9C5FB052EDFCFB900AD99EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TradeLens.TradeLens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A9C5FB072EDFCFB900AD99EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TradeLens.TradeLensTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TradeLens.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TradeLens";
+			};
+			name = Debug;
+		};
+		A9C5FB082EDFCFB900AD99EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TradeLens.TradeLensTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TradeLens.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TradeLens";
+			};
+			name = Release;
+		};
+		A9C5FB0A2EDFCFB900AD99EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TradeLens.TradeLensUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TradeLens;
+			};
+			name = Debug;
+		};
+		A9C5FB0B2EDFCFB900AD99EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TradeLens.TradeLensUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TradeLens;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9C5FADB2EDFCFB700AD99EC /* Build configuration list for PBXProject "TradeLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C5FB012EDFCFB900AD99EC /* Debug */,
+				A9C5FB022EDFCFB900AD99EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9C5FB032EDFCFB900AD99EC /* Build configuration list for PBXNativeTarget "TradeLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C5FB042EDFCFB900AD99EC /* Debug */,
+				A9C5FB052EDFCFB900AD99EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9C5FB062EDFCFB900AD99EC /* Build configuration list for PBXNativeTarget "TradeLensTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C5FB072EDFCFB900AD99EC /* Debug */,
+				A9C5FB082EDFCFB900AD99EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9C5FB092EDFCFB900AD99EC /* Build configuration list for PBXNativeTarget "TradeLensUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C5FB0A2EDFCFB900AD99EC /* Debug */,
+				A9C5FB0B2EDFCFB900AD99EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9C5FAD82EDFCFB700AD99EC /* Project object */;
+}
