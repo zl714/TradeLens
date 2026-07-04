@@ -2,7 +2,7 @@
 
 TradeLens is a SwiftUI-based iOS app designed to help users better understand stock market behavior through real-time market data, portfolio tracking, and AI-assisted trade analysis. The app focuses on education, clarity, and insight rather than direct trading.
 
-This project is actively under development.
+Status: iOS prototype, on hold — the current TradeLens work continues as a web app ([tradelens-web](https://github.com/zl714/tradelens-web)).
 
 ---
 
@@ -29,6 +29,7 @@ This project is actively under development.
 
 ## Project Structure
 
+```
 TradeLens/
 ├── Models/
 ├── Views/
@@ -38,6 +39,7 @@ TradeLens/
 │   ├── AIGradingService
 ├── TradeLensApp.swift
 ├── Secrets.example.swift
+```
 
 API keys are intentionally excluded from version control.
 
@@ -49,8 +51,10 @@ To run this app locally, you will need your own API keys.
 
 ### 1. Clone the repository
 
+```bash
 git clone https://github.com/zl714/TradeLens.git
 cd TradeLens
+```
 
 ### 2. Add your API keys
 
@@ -60,10 +64,12 @@ cd TradeLens
 
 Example:
 
+```swift
 enum Secrets {
     static let finnhubAPIKey = "YOUR_FINNHUB_KEY"
     static let anthropicAPIKey = "YOUR_ANTHROPIC_KEY"
 }
+```
 
 Secrets.swift is ignored by Git and will never be committed.
 
